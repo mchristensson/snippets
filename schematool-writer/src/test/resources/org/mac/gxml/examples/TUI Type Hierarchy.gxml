@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stage version="3.0" keygen_seq="384">
+	<pageObj width="5000" print_scale="0" print_paper="LETTER"
+		print_layout="0" print_grid="0" pb="0" istt="false" height="5000"
+		guides="0" gr="1" fill="0xffffff" drawingWidth="1129" drawingHeight="927"
+		border="0">
+		<styles>
+			<shapeStyle lineWidth="-1"
+				lineColor="com.gliffy.erd:0x000000,global:0x333333,com.gliffy.basic:0x333333,com.gliffy.symbols.flowchart:0x333333,com.gliffy.symbols.basic:0x333333,com.gliffy.flowchart:0x333333"
+				gradientOn="true"
+				fillColor="global:0xcccccc,com.gliffy.basic:0xcccccc,com.gliffy.symbols.flowchart:0xcccccc,com.gliffy.symbols.basic:0xcccccc,com.gliffy.flowchart:0xcccccc"
+				dropShadowOn="true" />
+			<lineStyle width="0" roundCorners="true" pattern="0" end="2"
+				connType="right" color="0x000000" borderLine="false" begin="0" />
+			<textStyle style="bold=true" size="12" face="Arial" color="0x000000" />
+		</styles>
+		<objects>
+			<object version="2" path="0.0,0.0,false,x,1;621.0,0.0,false,x,0;"
+				numSegs="1" linep="0" endStyle="0" buff="20" beginStyle="0" alg="threeMid"
+				ln_id="127" libraryId="standard" order="10" linew="0" linec="0x333333"
+				y="80.0" x="59.0" width="621.0" height="2.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object version="2" roundedCorners="true"
+				path="0.0,0.0,false,y,1;0.0,65.0,false,n,0;25.0,65.0,false,x,0;"
+				numSegs="2" linep="0" endStyle="2" cornerRadius="10" buff="20"
+				beginStyle="0" alg="threeMid" ln_id="227" libraryId="standard"
+				order="42" linew="0" linec="0x000000" y="187.0" x="195.0" width="25.0"
+				height="65.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object version="2" roundedCorners="true"
+				path="0.0,0.0,false,y,1;0.0,50.0,false,n,0;30.0,50.0,false,x,0;"
+				numSegs="2" linep="0" endStyle="2" cornerRadius="10" buff="20"
+				beginStyle="0" alg="threeMid" ln_id="228" libraryId="standard"
+				order="43" linew="0" linec="0x000000" y="288.0" x="280.0" width="30.0"
+				height="50.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object version="2" roundedCorners="true"
+				path="0.0,0.0,false,y,1;0.0,48.0,false,n,0;49.0,48.0,false,x,0;"
+				numSegs="2" linep="0" endStyle="2" cornerRadius="10" buff="20"
+				beginStyle="0" alg="threeMid" ln_id="265" libraryId="standard"
+				order="104" linew="0" linec="0x000000" y="594.0" x="197.0" width="49.0"
+				height="48.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object version="2" roundedCorners="true"
+				path="0.0,0.0,false,y,1;0.0,136.0,false,n,0;49.0,136.0,false,x,0;"
+				numSegs="2" linep="0" endStyle="2" cornerRadius="10" buff="20"
+				beginStyle="0" alg="threeMid" ln_id="266" libraryId="standard"
+				order="105" linew="0" linec="0x000000" y="594.0" x="197.0" width="49.0"
+				height="136.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object version="2" roundedCorners="true"
+				path="0.0,0.0,false,y,1;0.0,225.0,false,n,0;49.0,225.0,false,x,0;"
+				numSegs="2" linep="0" endStyle="2" cornerRadius="10" buff="20"
+				beginStyle="0" alg="threeMid" ln_id="267" libraryId="standard"
+				order="106" linew="0" linec="0x000000" y="594.0" x="197.0" width="49.0"
+				height="225.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object version="2" roundedCorners="true"
+				path="0.0,0.0,false,y,1;0.0,314.0,false,n,0;49.0,314.0,false,x,0;"
+				numSegs="2" linep="0" endStyle="2" cornerRadius="10" buff="20"
+				beginStyle="0" alg="threeMid" ln_id="268" libraryId="standard"
+				order="107" linew="0" linec="0x000000" y="594.0" x="197.0" width="49.0"
+				height="314.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object version="2" roundedCorners="true"
+				path="0.0,0.0,false,y,1;0.0,56.0,false,n,0;43.0,56.0,false,x,0;"
+				numSegs="2" linep="0" endStyle="2" cornerRadius="10" buff="20"
+				beginStyle="0" alg="threeMid" ln_id="269" libraryId="standard"
+				order="108" linew="0" linec="0x000000" y="170.0" x="561.0" width="43.0"
+				height="56.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object version="2" roundedCorners="true"
+				path="0.0,0.0,false,y,1;0.0,132.0,false,n,0;39.0,132.0,false,x,0;"
+				numSegs="2" linep="0" endStyle="2" cornerRadius="10" buff="20"
+				beginStyle="0" alg="threeMid" ln_id="270" libraryId="standard"
+				order="109" linew="0" linec="0x000000" y="596.0" x="561.0" width="39.0"
+				height="132.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object version="2" roundedCorners="true"
+				path="0.0,0.0,false,y,1;0.0,48.0,false,n,0;39.0,48.0,false,x,0;"
+				numSegs="2" linep="0" endStyle="2" cornerRadius="10" buff="20"
+				beginStyle="0" alg="threeMid" ln_id="271" libraryId="standard"
+				order="110" linew="0" linec="0x000000" y="596.0" x="561.0" width="39.0"
+				height="48.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object version="2" roundedCorners="true"
+				path="0.0,0.0,false,y,1;0.0,52.0,false,n,0;50.0,52.0,false,x,0;"
+				numSegs="2" linep="0" endStyle="2" cornerRadius="10" buff="20"
+				beginStyle="0" alg="threeMid" ln_id="277" libraryId="standard"
+				order="136" linew="0" linec="0x000000" y="172.0" x="842.0" width="50.0"
+				height="52.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object version="2" roundedCorners="true"
+				path="0.0,0.0,false,y,1;0.0,145.0,false,n,0;51.0,145.0,false,x,0;"
+				numSegs="2" linep="0" endStyle="2" cornerRadius="10" buff="20"
+				beginStyle="0" alg="threeMid" ln_id="278" libraryId="standard"
+				order="137" linew="0" linec="0x000000" y="172.0" x="842.0" width="51.0"
+				height="145.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object version="2" roundedCorners="true"
+				path="0.0,0.0,false,y,1;0.0,237.0,false,n,0;50.0,237.0,false,x,0;"
+				numSegs="2" linep="0" endStyle="2" cornerRadius="10" buff="20"
+				beginStyle="0" alg="threeMid" ln_id="279" libraryId="standard"
+				order="138" linew="0" linec="0x000000" y="172.0" x="842.0" width="50.0"
+				height="237.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object version="2" roundedCorners="true"
+				path="0.0,0.0,false,y,1;0.0,53.0,false,n,0;46.0,53.0,false,x,0;"
+				numSegs="2" linep="0" endStyle="2" cornerRadius="10" buff="20"
+				beginStyle="0" alg="threeMid" ln_id="280" libraryId="standard"
+				order="139" linew="0" linec="0x000000" y="594.0" x="866.0" width="46.0"
+				height="53.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object version="2" roundedCorners="true"
+				path="0.0,0.0,false,y,1;0.0,56.0,false,n,0;47.0,56.0,false,x,0;"
+				numSegs="2" linep="0" endStyle="2" cornerRadius="10" buff="20"
+				beginStyle="0" alg="threeMid" ln_id="281" libraryId="standard"
+				order="140" linew="0" linec="0x000000" y="856.0" x="865.0" width="47.0"
+				height="56.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object version="2" roundedCorners="true"
+				path="0.0,0.0,false,y,1;0.0,316.0,false,n,0;40.0,316.0,false,x,0;"
+				numSegs="2" linep="0" endStyle="2" cornerRadius="10" buff="20"
+				beginStyle="0" alg="threeMid" ln_id="282" libraryId="standard"
+				order="141" linew="0" linec="0x000000" y="596.0" x="561.0" width="40.0"
+				height="316.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object version="2" roundedCorners="true"
+				path="0.0,0.0,false,y,1;0.0,224.0,false,n,0;40.0,224.0,false,x,0;"
+				numSegs="2" linep="0" endStyle="2" cornerRadius="10" buff="20"
+				beginStyle="0" alg="threeMid" ln_id="283" libraryId="standard"
+				order="142" linew="0" linec="0x000000" y="596.0" x="561.0" width="40.0"
+				height="224.0" class="TheOrthoLine">
+				<style borderedInnerColor="0xffffff" borderLine="false" />
+				<text />
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="274" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,4.0;0.0,4.0,120.0,52.0;" order="131" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="128.0" x="1087.5"
+				width="119.0" height="56.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top" />
+				<text tvp="top" />
+				<connlines />
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="276" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,18.0;0.0,18.0,120.0,53.0;" order="126" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="135.5" x="841.5"
+				width="119.0" height="71.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Travel Product</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="start" ln_id="277" cpnum="0" />
+					<connline type="start" ln_id="278" cpnum="0" />
+					<connline type="start" ln_id="279" cpnum="0" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="275" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,4.0;0.0,4.0,120.0,52.0;" order="121" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="108.0" x="1068.5"
+				width="119.0" height="56.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top" />
+				<text tvp="top" />
+				<connlines />
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="273" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,32.0;0.0,32.0,120.0,37.0;" order="116" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="222.5" x="951.5"
+				width="119.0" height="69.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Travel Charter Product</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="end" ln_id="277" cpnum="1" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="272" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,46.0;0.0,46.0,120.0,22.0;" order="111" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="315.0" x="952.5"
+				width="119.0" height="68.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Travel Accommodation Product</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="end" ln_id="278" cpnum="1" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="240" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,18.0;0.0,18.0,120.0,53.0;" order="99" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="819.5" x="660.5"
+				width="119.0" height="71.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Supplier Facility</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="end" ln_id="283" cpnum="1" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="239" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,18.0;0.0,18.0,120.0,53.0;" order="94" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="911.5" x="660.5"
+				width="119.0" height="71.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Supplier Room Type</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="end" ln_id="282" cpnum="1" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="238" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,18.0;0.0,18.0,120.0,52.0;" order="89" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="911.0" x="971.5"
+				width="119.0" height="70.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>TUI Room Type</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="end" ln_id="281" cpnum="1" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="237" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,32.0;0.0,32.0,120.0,37.0;" order="84" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="818.5" x="864.5"
+				width="119.0" height="69.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Travel Product Components</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="start" ln_id="281" cpnum="0" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="236" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,32.0;0.0,32.0,120.0,37.0;" order="79" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="407.5" x="951.5"
+				width="119.0" height="69.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Travel AddOn Product</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="end" ln_id="279" cpnum="1" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="235" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,32.0;0.0,32.0,120.0,37.0;" order="74" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="726.5" x="659.5"
+				width="119.0" height="69.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Supplier Board Suppliment Type</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="end" ln_id="270" cpnum="1" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="234" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,18.0;0.0,18.0,120.0,52.0;" order="69" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="729.0" x="305.5"
+				width="119.0" height="70.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Allotment Period</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="end" ln_id="266" cpnum="1" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="233" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,18.0;0.0,18.0,120.0,52.0;" order="64" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="818.0" x="305.5"
+				width="119.0" height="70.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Commited Period</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="end" ln_id="267" cpnum="1" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="232" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,32.0;0.0,32.0,120.0,37.0;" order="59" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="906.5" x="305.5"
+				width="119.0" height="69.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Different Allotment Period</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="end" ln_id="268" cpnum="1" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="231" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,18.0;0.0,18.0,120.0,52.0;" order="54" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="559.0" x="560.5"
+				width="119.0" height="70.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Supplier Offerings</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="start" ln_id="270" cpnum="0" />
+					<connline type="start" ln_id="271" cpnum="0" />
+					<connline type="start" ln_id="282" cpnum="0" />
+					<connline type="start" ln_id="283" cpnum="0" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="230" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,32.0;0.0,32.0,120.0,37.0;" order="49" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="556.5" x="865.5"
+				width="119.0" height="69.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Supplier Room Facility Group</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="start" ln_id="280" cpnum="0" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="229" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,32.0;0.0,32.0,120.0,37.0;" order="44" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="645.5" x="971.5"
+				width="119.0" height="69.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Supplier Room Facility</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="end" ln_id="280" cpnum="1" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="226" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,18.0;0.0,18.0,120.0,52.0;" order="37" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="150.0" x="194.5"
+				width="119.0" height="70.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Supplier Asset</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="start" ln_id="227" cpnum="0" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="225" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,18.0;0.0,18.0,120.0,52.0;" order="32" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="641.0" x="305.5"
+				width="119.0" height="70.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Rate Period</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="end" ln_id="265" cpnum="1" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="224" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,18.0;0.0,18.0,120.0,52.0;" order="27" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="557.0" x="196.5"
+				width="119.0" height="70.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Contract Period</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="start" ln_id="265" cpnum="0" />
+					<connline type="start" ln_id="266" cpnum="0" />
+					<connline type="start" ln_id="267" cpnum="0" />
+					<connline type="start" ln_id="268" cpnum="0" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="223" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,32.0;0.0,32.0,120.0,37.0;" order="22" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="642.5" x="659.5"
+				width="119.0" height="69.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Supplier Basic Board Type</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="end" ln_id="271" cpnum="1" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="222" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,32.0;0.0,32.0,120.0,37.0;" order="17" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="224.5" x="663.5"
+				width="119.0" height="69.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Accommodation Contract</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="end" ln_id="269" cpnum="1" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="221" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,18.0;0.0,18.0,120.0,52.0;" order="12" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="133.0" x="560.5"
+				width="119.0" height="70.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Contract</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="start" ln_id="269" cpnum="0" />
+				</connlines>
+			</object>
+			<object text-vertical-pos="middle" shp_id="160" rot="0.0"
+				lock="false" fixed-aspect="false" order="11" libraryid="com.gliffy.images"
+				y="63.0" x="368.0" width="614.0" height="26.0" class="text_shape">
+				<text><![CDATA[<P ALIGN="LEFT"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="18">Type Hierarchy</FONT></P>]]></text>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="3" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,18.0;0.0,18.0,120.0,52.0;" order="5" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="251.0" x="279.5"
+				width="119.0" height="70.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Fixed Asset</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="end" ln_id="227" cpnum="1" />
+					<connline type="start" ln_id="228" cpnum="0" />
+				</connlines>
+			</object>
+			<object text-horizontal-pos="center" svg_id="EntityAttr"
+				shp_id="1" rot="0.0" lock="false" gradon="true" fixed-aspect="false"
+				fill="0xcccccc" dsy="4.0" dsx="4.0" dshad="false"
+				parts="0.0,0.0,120.0,18.0;0.0,18.0,120.0,40.0;" order="0" linew="1"
+				linec="0x000000" libraryid="com.gliffy.erd" y="337.0" x="369.5"
+				width="119.0" height="58.0" class="GliffyMultiPartSVGShape">
+				<text tvp="top"><![CDATA[<P ALIGN="CENTER"><FONT COLOR="#000000" FACE="Arial" KERNING="0" LETTERSPACING="0" SIZE="12"><B>Hotel</B></FONT></P>]]></text>
+				<text tvp="top" />
+				<connlines>
+					<connline type="end" ln_id="228" cpnum="1" />
+				</connlines>
+			</object>
+		</objects>
+	</pageObj>
+</stage>
