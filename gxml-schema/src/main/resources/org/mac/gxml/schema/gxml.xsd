@@ -1,0 +1,159 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+	<xs:element name="stage">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="pageObj">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="styles">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="shapeStyle">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:byte" name="lineWidth"/>
+														<xs:attribute type="xs:string" name="lineColor"/>
+														<xs:attribute type="xs:string" name="gradientOn"/>
+														<xs:attribute type="xs:string" name="fillColor"/>
+														<xs:attribute type="xs:string" name="dropShadowOn"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="lineStyle">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:byte" name="width"/>
+														<xs:attribute type="xs:string" name="roundCorners"/>
+														<xs:attribute type="xs:byte" name="pattern"/>
+														<xs:attribute type="xs:byte" name="end"/>
+														<xs:attribute type="xs:string" name="connType"/>
+														<xs:attribute type="xs:string" name="color"/>
+														<xs:attribute type="xs:string" name="borderLine"/>
+														<xs:attribute type="xs:byte" name="begin"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="textStyle">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute type="xs:string" name="style"/>
+														<xs:attribute type="xs:byte" name="size"/>
+														<xs:attribute type="xs:string" name="face"/>
+														<xs:attribute type="xs:string" name="color"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="objects">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="object" maxOccurs="unbounded" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="style" minOccurs="0">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:attribute type="xs:string" name="borderedInnerColor" use="optional"/>
+																	<xs:attribute type="xs:string" name="borderLine" use="optional"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="text" maxOccurs="unbounded" minOccurs="0">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:attribute type="xs:string" name="tvp" use="optional"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="connlines" minOccurs="0">
+														<xs:complexType mixed="true">
+															<xs:sequence>
+																<xs:element name="connline" maxOccurs="unbounded" minOccurs="0">
+																	<xs:complexType>
+																		<xs:simpleContent>
+																			<xs:extension base="xs:string">
+																				<xs:attribute type="xs:string" name="type" use="optional"/>
+																				<xs:attribute type="xs:short" name="ln_id" use="optional"/>
+																				<xs:attribute type="xs:byte" name="cpnum" use="optional"/>
+																			</xs:extension>
+																		</xs:simpleContent>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute type="xs:byte" name="version" use="optional"/>
+												<xs:attribute type="xs:string" name="path" use="optional"/>
+												<xs:attribute type="xs:byte" name="numSegs" use="optional"/>
+												<xs:attribute type="xs:byte" name="linep" use="optional"/>
+												<xs:attribute type="xs:byte" name="endStyle" use="optional"/>
+												<xs:attribute type="xs:byte" name="buff" use="optional"/>
+												<xs:attribute type="xs:byte" name="beginStyle" use="optional"/>
+												<xs:attribute type="xs:string" name="alg" use="optional"/>
+												<xs:attribute type="xs:short" name="ln_id" use="optional"/>
+												<xs:attribute type="xs:string" name="libraryId" use="optional"/>
+												<xs:attribute type="xs:short" name="order" use="optional"/>
+												<xs:attribute type="xs:byte" name="linew" use="optional"/>
+												<xs:attribute type="xs:string" name="linec" use="optional"/>
+												<xs:attribute type="xs:float" name="y" use="optional"/>
+												<xs:attribute type="xs:float" name="x" use="optional"/>
+												<xs:attribute type="xs:float" name="width" use="optional"/>
+												<xs:attribute type="xs:float" name="height" use="optional"/>
+												<xs:attribute type="xs:string" name="class" use="optional"/>
+												<xs:attribute type="xs:string" name="roundedCorners" use="optional"/>
+												<xs:attribute type="xs:byte" name="cornerRadius" use="optional"/>
+												<xs:attribute type="xs:string" name="text-horizontal-pos" use="optional"/>
+												<xs:attribute type="xs:string" name="svg_id" use="optional"/>
+												<xs:attribute type="xs:short" name="shp_id" use="optional"/>
+												<xs:attribute type="xs:float" name="rot" use="optional"/>
+												<xs:attribute type="xs:string" name="lock" use="optional"/>
+												<xs:attribute type="xs:string" name="gradon" use="optional"/>
+												<xs:attribute type="xs:string" name="fixed-aspect" use="optional"/>
+												<xs:attribute type="xs:string" name="fill" use="optional"/>
+												<xs:attribute type="xs:float" name="dsy" use="optional"/>
+												<xs:attribute type="xs:float" name="dsx" use="optional"/>
+												<xs:attribute type="xs:string" name="dshad" use="optional"/>
+												<xs:attribute type="xs:string" name="parts" use="optional"/>
+												<xs:attribute type="xs:string" name="libraryid" use="optional"/>
+												<xs:attribute type="xs:string" name="text-vertical-pos" use="optional"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute type="xs:short" name="width"/>
+						<xs:attribute type="xs:byte" name="print_scale"/>
+						<xs:attribute type="xs:string" name="print_paper"/>
+						<xs:attribute type="xs:byte" name="print_layout"/>
+						<xs:attribute type="xs:byte" name="print_grid"/>
+						<xs:attribute type="xs:byte" name="pb"/>
+						<xs:attribute type="xs:string" name="istt"/>
+						<xs:attribute type="xs:short" name="height"/>
+						<xs:attribute type="xs:byte" name="guides"/>
+						<xs:attribute type="xs:byte" name="gr"/>
+						<xs:attribute type="xs:string" name="fill"/>
+						<xs:attribute type="xs:short" name="drawingWidth"/>
+						<xs:attribute type="xs:short" name="drawingHeight"/>
+						<xs:attribute type="xs:byte" name="border"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute type="xs:float" name="version"/>
+			<xs:attribute type="xs:short" name="keygen_seq"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
