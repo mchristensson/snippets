@@ -10,15 +10,30 @@ import java.util.Map;
 import org.apache.xmlbeans.XmlOptions;
 import org.mac.gxml.enovia.model.impl.Relationship;
 import org.mac.gxml.enovia.model.impl.Type;
-import org.mac.gxml.model.BaseModelEntity;
 import org.mac.gxml.model.ConnectionLine;
 import org.mac.gxml.model.ModelEntity;
+import org.mac.gxml.model.XMIReferenceObject;
 import org.mac.gxml.schema.StageDocument;
 import org.mac.gxml.schema.StageDocument.Stage;
 import org.mac.gxml.schema.StageDocument.Stage.PageObj;
 import org.mac.gxml.schema.StageDocument.Stage.PageObj.Objects;
 
 public abstract class XMIDocumentWrapperImpl implements XMIDocumentWrapper {
+	@Override
+	public void applyGliffyObjectStyles() {
+		Iterator<ConnectionLine> lineIter = lineIndex.values().iterator();
+		while (lineIter.hasNext()) {
+			applyLineStyle(lineIter.next());
+		}
+
+		Iterator<ModelEntity> boxIter = objectIndex.values().iterator();
+		while (boxIter.hasNext()) {
+			ModelEntity entity = boxIter.next();
+			if (entity instanceof XMIReferenceObject)
+				applyBoxStyle((XMIReferenceObject) entity);
+		}
+	}
+
 	@Override
 	public void connectGliffyObjects() {
 		Objects objs = doc.getStage().getPageObj().getObjects();
@@ -31,9 +46,11 @@ public abstract class XMIDocumentWrapperImpl implements XMIDocumentWrapper {
 				Iterator<Short> targetIter = targets.iterator();
 				while (targetIter.hasNext()) {
 					ModelEntity target = objectIndex.get(targetIter.next());
-					BaseModelEntity connectionLine = new ConnectionLine(source,
+					ConnectionLine connectionLine = new ConnectionLine(source,
 							target);
 					connectionLine.setObjectRef(objs.addNewObject());
+					Short key = new Short(connectionLine.getId());
+					lineIndex.put(key, connectionLine);
 				}
 			}
 		}
@@ -56,6 +73,7 @@ public abstract class XMIDocumentWrapperImpl implements XMIDocumentWrapper {
 	}
 
 	private final Map<Short, ModelEntity> objectIndex = new HashMap<Short, ModelEntity>();
+	private final Map<Short, ConnectionLine> lineIndex = new HashMap<Short, ConnectionLine>();
 	private final Map<String, Short> idIndex = new HashMap<String, Short>();
 
 	/**
@@ -102,9 +120,11 @@ public abstract class XMIDocumentWrapperImpl implements XMIDocumentWrapper {
 		while (indexIter.hasNext()) {
 			ModelEntity modelEntity = indexIter.next();
 			if (modelEntity instanceof Type) {
-				modelEntity.setObjectRef(objs.addNewObject());
+				Type type = (Type) modelEntity;
+				type.setObjectRef(objs.addNewObject());
 			} else if (modelEntity instanceof Relationship) {
-				modelEntity.setObjectRef(objs.addNewObject());
+				Relationship relationship = (Relationship) modelEntity;
+				relationship.setObjectRef(objs.addNewObject());
 			}
 		}
 	}

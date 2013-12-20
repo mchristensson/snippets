@@ -4,7 +4,7 @@ import org.mac.gxml.layout.CollisionElement;
 import org.mac.gxml.layout.LineCollisionElement;
 import org.mac.gxml.schema.StageDocument.Stage.PageObj.Objects.Object;
 
-public class ConnectionLine implements BaseModelEntity {
+public class ConnectionLine implements BaseModelEntity, XMIReferenceObject {
 	private Object gXmlObject;
 	private final short id;
 
@@ -42,5 +42,10 @@ public class ConnectionLine implements BaseModelEntity {
 	}
 
 	private final LineCollisionElement collisionElement;
+
+	@Override
+	public String getName() {
+		return null;
+	}
 
 }

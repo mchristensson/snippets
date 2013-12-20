@@ -1,6 +1,7 @@
 package org.mac.gxml.enovia.writer;
 
-import org.mac.gxml.model.ModelEntity;
+import org.mac.gxml.model.ConnectionLine;
+import org.mac.gxml.model.XMIReferenceObject;
 import org.mac.gxml.schema.StageDocument.Stage.PageObj;
 import org.mac.gxml.schema.StageDocument.Stage.PageObj.Objects.Object;
 import org.mac.gxml.schema.StageDocument.Stage.PageObj.Objects.Object.Style;
@@ -20,7 +21,7 @@ public class GliffyRendererImpl {
 	private static final String COLOR_STEEL_BLUE = "0xcccccc";
 	private static final String DEFAULT_SHAPE_RECT = "0.0,0.0,120.0,18.0;0.0,18.0,120.0,52.0;";
 
-	public static void applyBoxStyle(ModelEntity schemaToolEntity) {
+	public static void applyStyle(XMIReferenceObject schemaToolEntity) {
 		Object obj = schemaToolEntity.getObjectRef();
 		obj.setTextHorizontalPos("center");
 		obj.setSvgId("EntityAttr");
@@ -51,8 +52,8 @@ public class GliffyRendererImpl {
 		subLabel.setTvp("top");
 	}
 
-	public static void applyLineStyle(ModelEntity schemaToolEntity) {
-		Object obj = schemaToolEntity.getObjectRef();
+	public static void applyStyle(ConnectionLine entity) {
+		Object obj = entity.getObjectRef();
 		obj.setVersion(Byte.parseByte("2"));
 		obj.setRoundedCorners(TRUE);
 		obj.setPath("0.0,0.0,false,y,1;0.0,136.0,false,n,0;49.0,136.0,false,x,0;");
@@ -63,7 +64,7 @@ public class GliffyRendererImpl {
 		obj.setBuff(Byte.parseByte("20"));
 		obj.setBeginStyle(Byte.parseByte("0"));
 		obj.setAlg("threeMid");
-		obj.setLnId(schemaToolEntity.getId());
+		obj.setLnId(entity.getId());
 		obj.setLibraryid("standard");
 		obj.setOrder((short) 105);
 		obj.setLinew(Byte.parseByte("0"));
@@ -77,8 +78,6 @@ public class GliffyRendererImpl {
 		Style style = obj.addNewStyle();
 		style.setBorderedInnerColor(COLOUR_WHITE);
 		style.setBorderLine(FALSE);
-		Text text = obj.addNewText();
-		text.setStringValue(schemaToolEntity.getName());
 
 	}
 

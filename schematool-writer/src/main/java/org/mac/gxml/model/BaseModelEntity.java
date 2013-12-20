@@ -1,7 +1,6 @@
 package org.mac.gxml.model;
 
 import org.mac.gxml.layout.CollisionElement;
-import org.mac.gxml.schema.StageDocument.Stage.PageObj.Objects.Object;
 
 public interface BaseModelEntity {
 	public CollisionElement getCollisionElement();
@@ -23,8 +22,4 @@ public interface BaseModelEntity {
 
 	public short getId();
 
-	void setObjectRef(
-			org.mac.gxml.schema.StageDocument.Stage.PageObj.Objects.Object gXmlObject);
-
-	public Object getObjectRef();
 }

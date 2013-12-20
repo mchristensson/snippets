@@ -5,10 +5,8 @@ import javax.xml.bind.annotation.XmlTransient;
 
 import org.mac.gxml.layout.CollisionElement;
 import org.mac.gxml.layout.RadialCollisionElement;
-import org.mac.gxml.schema.StageDocument.Stage.PageObj.Objects.Object;
 
 public abstract class SchemaToolEntityImpl implements SchemaToolEntity {
-	private Object gXmlObject;
 	private String symbolicName, name;
 	private final short id;
 
@@ -18,16 +16,6 @@ public abstract class SchemaToolEntityImpl implements SchemaToolEntity {
 	}
 
 	private final RadialCollisionElement collisionElement;
-
-	@Override
-	public Object getObjectRef() {
-		return gXmlObject;
-	}
-
-	@Override
-	public void setObjectRef(Object gXmlObject) {
-		this.gXmlObject = gXmlObject;
-	}
 
 	public SchemaToolEntityImpl() {
 		this.collisionElement = new RadialCollisionElement(new Float(0),

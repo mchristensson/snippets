@@ -13,11 +13,27 @@ import javax.xml.bind.annotation.XmlTransient;
 import org.mac.gxml.enovia.model.SchemaToolEntityImpl;
 import org.mac.gxml.enovia.parser.model.FromDef;
 import org.mac.gxml.enovia.parser.model.ToDef;
+import org.mac.gxml.model.XMIReferenceObject;
+import org.mac.gxml.schema.StageDocument.Stage.PageObj.Objects.Object;
 
-public class Relationship extends SchemaToolEntityImpl {
+public class Relationship extends SchemaToolEntityImpl implements
+		XMIReferenceObject {
 
 	public static enum CARDINALITY {
 		ONE, MANY
+	}
+
+	private Object gXmlObject;
+
+	@XmlTransient
+	@Override
+	public Object getObjectRef() {
+		return gXmlObject;
+	}
+
+	@Override
+	public void setObjectRef(Object gXmlObject) {
+		this.gXmlObject = gXmlObject;
 	}
 
 	@XmlTransient

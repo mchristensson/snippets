@@ -15,6 +15,7 @@ import org.mac.gxml.enovia.model.impl.Type;
 import org.mac.gxml.enovia.parser.model.AttributeDef;
 import org.mac.gxml.enovia.parser.model.RelationshipDef;
 import org.mac.gxml.enovia.parser.model.TypeDef;
+import org.mac.gxml.layout.impl.GraphModel;
 import org.mac.gxml.writer.model.XMIDocumentWrapper;
 import org.mac.gxml.writer.parser.ModelParser;
 
@@ -24,11 +25,6 @@ public class SchemaToolParser implements ModelParser {
 
 	public SchemaToolParser(XMIDocumentWrapper doc) {
 		this.doc = doc;
-	}
-
-	@Override
-	public void applyGraphModel() {
-
 	}
 
 	/**
@@ -90,7 +86,14 @@ public class SchemaToolParser implements ModelParser {
 
 		doc.generateGliffyObjects();
 		doc.connectGliffyObjects();
-		applyGraphModel();
+		applyGraphModel(doc.getGraphModel());
+		doc.applyGliffyObjectStyles();
+	}
+
+	@Override
+	public void applyGraphModel(GraphModel graphModel) {
+		// TODO Auto-generated method stub
+
 	}
 
 	/**
